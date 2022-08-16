@@ -147,10 +147,10 @@ AUTHENTICATION_BACKENDS = {
 
 MEDIA_URL = 'images/'
 
-# STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR, 'static')
-# ]
-STATICFILES_DIRS = [os.path.join(ROOT_PATH, 'static')]
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
+# STATICFILES_DIRS = [os.path.join(ROOT_PATH, 'static')]
 # register custom user model
 AUTH_USER_MODEL = 'accounts.NewUser'
 
