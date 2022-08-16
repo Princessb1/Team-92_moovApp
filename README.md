@@ -37,9 +37,8 @@ If you want to contribute to this project,a pull request is the way to go and ma
 You can view more about the Moov documentation on the website
 
 #How to work with repo locally:
-1) clone the repository
-2) cd to moov_website
 
+1. clone the repository
 
 Download from here
 
@@ -53,7 +52,6 @@ Or add it directly to your webpage using a CDN:
 
 Basic usage After adding or embedding the moov.css library to your code, Always ensure before calling your animation name you include “moov_animated” then the animation name.
 
-
 # Best Practices
 
 Animation has a great way of calling users' attention to view your website more but it is super important you use animations in places where they are needed. There are some basic rules to follow so you stay on track while using any animation library.
@@ -62,18 +60,13 @@ Good usage of animations A component shouldn't be animated merely in order to cr
 
 Use exit and entry movements to point out exactly what is occurring in the interaction and make it evident when it is changing states.
 
-
-
 The CSS property animation-fill-mode, which regulates an element's states before and after animation, is a component of every Moov.css animation. Learn more about it by visiting this page. The animation-fill-mode setting in Moov.css is both by default, but you can modify it to meet your specific requirements.
 
 # Some usage that can’t be avoided
 
 Despite the fact that some browsers support inline animation, doing so violates the CSS animation specifications and will eventually malfunction or stop working on some browsers. Always animate items at the block or inline-block level (grid and flex containers and children are block-level elements too). When animating an inline-level element, you can set the element to display: inline-block.
 
-
-
-
-  #   Utility Classes
+# Utility Classes
 
 A few utility classes are included with Moov.css to make use of it easier.
 
