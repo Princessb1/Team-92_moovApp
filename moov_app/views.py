@@ -118,7 +118,7 @@ def password_reset(request):
 
         if mess.send():
             messages.add_message(request, messages.SUCCESS,
-                                 f'Thank you {name} for your message')
+                                 f'Thank you {{name}} for your message')
         else:
             messages.add_message(request, messages.ERROR,
                                  'An error occured, please try again')
