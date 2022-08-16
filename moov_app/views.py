@@ -59,7 +59,7 @@ def FAQPage(request):
 
 
 def documentation(request):
-    return render(request, 'moov_app/library_documentation.html')
+    return render(request, 'moov_app/library_Documentation.html')
 
 
 def terms(request):
