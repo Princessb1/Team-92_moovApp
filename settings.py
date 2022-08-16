@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-m##ijx5=(u^mrn#!h7jxoe0vi*cu&!bc%cx3wi7qa(t0(0b=8w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','team-92.herokuapp.com']
 
@@ -147,10 +147,10 @@ AUTHENTICATION_BACKENDS = {
 
 MEDIA_URL = 'images/'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-]
-# STATICFILES_DIRS = [os.path.join(ROOT_PATH, 'static')]
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static')
+# ]
+STATICFILES_DIRS = [os.path.join(ROOT_PATH, 'static')]
 # register custom user model
 AUTH_USER_MODEL = 'accounts.NewUser'
 
