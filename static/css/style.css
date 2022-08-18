@@ -39,10 +39,6 @@ header {
   color: #003773;
 }
 
-
-
-
-
 .hamburger_icon,
 .nav_links_slider {
   display: none;
@@ -592,9 +588,28 @@ footer {
   }
 
   .nav_links_slider {
-    padding: 20px;
+    padding: 5px;
   }
 
+  .nav_links_slider > p {
+    color: #003773;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .nav_links_slider > p a {
+    text-decoration: none;
+    color: #003773;
+  }
+
+  .logIn_btn {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .getStartedBtn1 {
+    margin-left: -1px;
+  }
   .hamburger_input + .nav_links_slider {
     width: 30%;
     top: 0;
@@ -618,7 +633,7 @@ footer {
   .hamburger_icon_bar {
     width: 100%;
     height: 3px;
-    background: #000;
+    background: #003773;
   }
 
   .hamburger_icon_bar:not(:last-child) {
@@ -780,6 +795,7 @@ footer {
   .firstRow {
     flex-direction: column-reverse;
     justify-content: space-between;
+    margin-bottom: 60px;
   }
 
   .imgSection {
@@ -792,8 +808,7 @@ footer {
   }
 
   .textSection {
-    align-items: center !important;
-    text-align: center !important;
+    animation: none;
   }
 
   .textSection h3 {
@@ -811,7 +826,7 @@ footer {
 
   .getStartedBtn3 {
     width: 40%;
-    left: 110px;
+    left: 65px;
     font-size: 20px !important;
     margin: auto;
     margin-top: 31.5px;
@@ -834,8 +849,8 @@ footer {
   }
 
   .textSection2 {
-    align-items: center !important;
-    text-align: center !important;
+    animation: none;
+    padding: 40px;
   }
 
   .textSection2 h3 {
@@ -850,6 +865,7 @@ footer {
 
   .thirdRow {
     flex-direction: column-reverse;
+    margin-top: -80px;
   }
 
   .imgSection3 {
@@ -862,14 +878,18 @@ footer {
   }
 
   .textSection3 {
-    align-items: center !important;
-    text-align: center !important;
+    animation: none;
+    padding: 40px;
   }
 
   .textSection3 h3 {
     font-size: 20px !important;
     line-height: 24px !important;
     padding: 0;
+  }
+
+  .signUpBtn {
+    font-size: 20px;
   }
 
   .moreDetails {
@@ -886,6 +906,10 @@ footer {
     font-size: 15px;
     line-height: 19.2px;
     font-weight: 400;
+  }
+
+  .container {
+    max-width: 100% !important;
   }
 
   .documentationBtn {
@@ -916,9 +940,7 @@ footer {
   }
 }
 
-
 /* Animations */
-
 
 @keyframes bounce {
   from,
@@ -952,8 +974,8 @@ footer {
 
 .bounce {
   animation-name: bounce;
-  animation-iteration-count:2s;
-  animation-duration:.5s;
+  animation-iteration-count: 2s;
+  animation-duration: 0.5s;
   transform-origin: center bottom;
 }
 
@@ -1269,4 +1291,3 @@ footer {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
